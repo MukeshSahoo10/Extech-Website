@@ -10,10 +10,8 @@ header {
     justify-content: center;
     border-style: solid;
     border-radius: 50px;
-    border-color: rgb(242, 239, 235);
-    border-bottom-color: #80aac3;
-    border-left-color: #80aac3;
-    border-right-color: #80aac3;
+    border-color: #ecf2f5;
+    
     border-width: 5px;
     
     
@@ -81,13 +79,15 @@ header {
 
 }
 .start{
+    font-weight: bold;
     margin-top: 2em;
     border:0;
     background-color:darkorange;
-    border-radius: 1em;
+    border-radius: 3em;
     color: white;
-    padding:0.4em;
+    padding:0.8em;
     cursor: pointer;
+    font-size: 1.2em;
 }
 .start:hover{
     background-color: rgb(253, 110, 0);

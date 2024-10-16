@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    border-radius: 25px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: none;
+
+
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    flex-direction: column;
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+    max-width: fit-content;
+    padding: 20px;
+
+}
+
+#card,
+#card1,
+#card2,
+#card3,
+#card4 {
+    display: block;
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.2s;
+
+}
+
+#card img,
+#card1 img,
+#card2 img,
+#card3 img,
+#card4 img {
+
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#card h2,
+#card1 h2,
+#card2 h2,
+#card3 h2,
+#card4 h2 {
+    font-size: 20;
+    font-style: normal;
+    -webkit-text-fill-color: blueviolet;
+}
+
+#card h5,
+#card1 h5,
+#card2 h5,
+#card3 h5,
+#card4 h5 {
+    font-size: 15px;
+    color: red;
+    margin: 5px;
+}
+
+#card button,
+#card1 button,
+#card2 button,
+#card3 button,
+#card4 button {
+    background-color: #4CAF50;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#card:hover,
+#card1:hover,
+#card2:hover,
+#card3:hover,
+#card4:hover {
+    transform: scale(1.05);
+}
+
+.header {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: blueviolet;
+    margin: 20px 0;
+}
