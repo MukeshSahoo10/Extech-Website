@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: blue;
+    
+    height: 100px;
+    
+
+}
+.container {
+    display: flex;
+   
+    
+    
+}
+.red{
+    background-color: red;
+    width: 50%;
+    height:15em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    column-gap: 2em;
+}
+.cc1{
+    display: flex;
+    gap: 3em ;
+}
+
+.c1, .c2, .c3 {
+    width: 50px; 
+    height: 30px;
+}
+.cc2{
+    display: flex;
+    margin-top: 5%;
+}
+.c4{
+    width:16em;
+    height: 30px;
+    background-color: rgb(199, 227, 235);
+    
+}
+
+.c1 {
+    background-color: lightblue;
+}
+
+.c2 {
+    background-color: lightgreen;
+}
+
+.c3 {
+    background-color: lightcoral;
+}
+.green{
+    background-color: green;
+    width: 50%;
+    height:15em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c5{
+    background-color: darkorange;
+    width: 7em; 
+    height: 5em;
+
+}
+.purple{
+    background-color: purple;
+    width: 50%;
+    height:15em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c6{
+    background-color: rgb(237, 18, 66);
+    width: 7em; 
+    height: 5em;
+}
+.container2{
+    display: flex;
+    
+    
+}
+.yellow{
+    background-color:yellow;
+    width: 50%;
+    height:15em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.c7{
+    width:16em;
+    height: 30px;
+    background-color: rgb(51, 10, 128);
+}
+.cc3{
+    display: flex;
+    margin-top: 3%;
+    gap: 3em;
+}
+.c8 , .c9{
+    width: 50px; 
+    height: 30px;
+
+}
+.c8{
+    background-color:darkgrey;
+}
+.c9{
+    background-color:rgb(37, 57, 69);
+}
+.brown{
+    background-color:brown;
+    width: 50%;
+    height:15em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c10{
+    background-color: rgb(31, 149, 100);
+    width: 15em; 
+    height: 10em;
+}
+.container3{
+    display:flex;
+}
+.pink{
+    background-color: pink;
+    width: 32%;
+    height:8em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c11{
+    background-color: rgb(124, 189, 19);
+    width: 15em; 
+    height: 5em;
+}
+
+.black{
+    background-color: rgb(16, 15, 15);
+    width: 68%;
+    height:8em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c12{
+    background-color: blanchedalmond;
+    width: 15em; 
+    height: 5em;
+}
+
